@@ -18,8 +18,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/gapps/common.mk)
 $(call inherit-product-if-exists, vendor/prebuilt-apps/config.mk)
 
-# Camera
-$(call inherit-product-if-exists, vendor/miuicamera/config.mk)
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
 # Product Specifics
 PRODUCT_NAME := aosp_spes
